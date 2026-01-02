@@ -82,10 +82,6 @@ msgstr ""
 msgid "Zarinpal"
 msgstr ""
 
-#: models/enum.py:10
-msgid "IDPay"
-msgstr ""
-
 #: models/enum.py:11
 msgid "Zibal"
 msgstr ""
