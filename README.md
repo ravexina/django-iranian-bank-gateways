@@ -605,6 +605,7 @@ pre-commit install
 * [saber-be](https://github.com/saber-be) برای اضافه کردن درگاه ایران درگاه
 * [miladkoohi](https://github.com/miladkoohi) برای اضافه کردن درگاه آسان پرداخت
 * [zamoosh](https://github.com/zamoosh) رفع مشکل circular import در ماژول banks
+* [mahdishirvani79](https://github.com/mahdishirvani79) رفع warning مربوط به default app config
 
 ## Star History
 

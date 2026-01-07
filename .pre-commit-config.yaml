@@ -54,6 +54,7 @@ repos:
       - id: django-upgrade
         args: [--target-version, "5.0"]
         types: [python]
+        exclude: ^azbankgateways/__init__\.py$
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.32.0
     hooks:
