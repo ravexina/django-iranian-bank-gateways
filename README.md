@@ -593,6 +593,7 @@ pre-commit install
 * [miladkoohi](https://github.com/miladkoohi) برای اضافه کردن درگاه آسان پرداخت
 * [zamoosh](https://github.com/zamoosh) رفع مشکل circular import در ماژول banks
 * [mahdishirvani79](https://github.com/mahdishirvani79) رفع warning مربوط به default app config
+* [Rayiumir](https://github.com/Rayiumir) حذف idpay و payV1
 
 ## Star History
 
