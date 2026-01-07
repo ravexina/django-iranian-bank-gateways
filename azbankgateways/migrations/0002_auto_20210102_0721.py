@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                     ("BMI", "BMI"),
                     ("SEP", "SEP"),
                     ("ZARINPAL", "Zarinpal"),
+                    ("IDPAY", "IDPay"),
                     ("ZIBAL", "Zibal"),
                     ("BAHAMTA", "Bahamta"),
                 ],
