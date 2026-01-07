@@ -20,7 +20,6 @@
 1. **درگاه پرداخت بانک ملی ایران (BMI)** - [**وبسایت**](https://sadadpsp.ir/) | [**مستندات**](docs/providers-documents/melli-1.10.pdf)
 1. **درگاه پرداخت بانک سامان (SEP)** - [**وبسایت**](https://www.sep.ir/) | [**مستندات**](docs/providers-documents/saman-3.3.pdf)
 1. **درگاه پرداخت زرین پال** - [**وبسایت**](https://www.zarinpal.com/) | [**مستندات**](https://www.zarinpal.com/docs/paymentGateway/)
-1. **درگاه پرداخت آی دی پی (IDPay)** - [**وبسایت**](https://idpay.ir/) | [**مستندات**](https://idpay.ir/web-service/v1.1)
 1. **درگاه پرداخت زیبال** - [**وبسایت**](https://zibal.ir/) | [**مستندات**](https://help.zibal.ir/IPG/API/)
 1. **درگاه پرداخت باهمتا** - [**وبسایت**](https://bahamta.com/) | [**مستندات**](https://webpay.bahamta.com/doc/api)
 1. **درگاه به پرداخت** - [**وبسایت**](https://www.behpardakht.ir/index.html) | [**مستندات**](docs/providers-documents/mellat-1.29.pdf)
@@ -72,11 +71,6 @@
              "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
              "SANDBOX": 0,  # 0 disable, 1 active
          },
-         "IDPAY": {
-             "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
-             "METHOD": "POST",  # GET or POST
-             "X_SANDBOX": 0,  # 0 disable, 1 active
-         },
          "ZIBAL": {
              "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
          },
@@ -87,10 +81,6 @@
              "TERMINAL_CODE": "<YOUR TERMINAL CODE>",
              "USERNAME": "<YOUR USERNAME>",
              "PASSWORD": "<YOUR PASSWORD>",
-         },
-         "PAYV1": {
-             "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
-             "X_SANDBOX": 0,  # 0 disable, 1 active
          },
          "IRANDARGAH": {
              "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
@@ -536,12 +526,9 @@ for item in bank_models.Bank.objects.filter_return_from_bank():
 - [X] Add BMI support
 - [X] Add SEP support
 - [X] Add Zarinpal support
-- [X] Add IDPay support
 - [X] Add Zibal support
 - [X] Add Bahamta support
 - [X] Add BehPardakht support
-- [X] Add Pay.ir V1 support
-- [ ] Add Pay.ir V2 support
 - [ ] Add nextpay-ir support (need MERCHANT_CODE & etc.)
 - [ ] Add Paystar support (need MERCHANT_CODE & etc.)
 - [ ] Add Sepah Bank support (need MERCHANT_CODE & etc.)
@@ -606,6 +593,7 @@ pre-commit install
 * [miladkoohi](https://github.com/miladkoohi) برای اضافه کردن درگاه آسان پرداخت
 * [zamoosh](https://github.com/zamoosh) رفع مشکل circular import در ماژول banks
 * [mahdishirvani79](https://github.com/mahdishirvani79) رفع warning مربوط به default app config
+* [Rayiumir](https://github.com/Rayiumir) حذف idpay و payV1
 
 ## Star History
 

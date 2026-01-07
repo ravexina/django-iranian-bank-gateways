@@ -90,10 +90,6 @@ msgstr "بانک سامان"
 msgid "Zarinpal"
 msgstr "زرین پال"
 
-#: models/enum.py:10
-msgid "IDPay"
-msgstr "آی دی پی"
-
 #: models/enum.py:11
 msgid "Zibal"
 msgstr "زیبال"
